@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,600&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+        background-color: rgb(0, 0, 55);
+      }
+      nav h1 {
+        display: flex;
+        justify-content: center;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+      }
+      div ul li {
+        list-style: none;
+        margin: 0 15px;
+      }
+      .snake-img{
+        border: 2px solid white;
+        border-radius: 4px;
+      }
+      .snake-font{
+        font-size: 1rem;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+      button{
+        width: 100%;
+        /* background-color: rgb(50, 50, 229); */
+        background-color: rgb(142, 142, 232);
+        border: 2px solid white;
+        border-radius: 8px;
+        height: 40px;
+        font-size: 1.3rem;
+      }
+      a{
+        color: white;
+      }
+      a:hover{
+        font-size: 1.5rem;
+      }
+      .weather-img{
+        border: 2px solid white;
+        border-radius: 4px;
+        margin-top: 10px;
+        background: linear-gradient(135deg, #00feba,#5b548a);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>My projects</h1>
+    </nav>
+    <div>
+      <ul>
+        <li>
+          <div class="snake-img">
+            <img src="snake profile1.jpg">
+          </div>  
+            <div class="snake-font"> 
+              Game (HTML, CSS, Javascript)
+            </div>
+              <div>
+                <button><a href="../snake ladder/index.html">Link</a></button>
+              </div>
+              <div class="weather-img">
+                <img src="/weather app/assets/images/weather-app.png">
+              </div>  
+                <div class="weather-font"> 
+                  Weather Live-updates
+                </div>
+                  <div>
+                    <button><a href="/weather app/weather.html">Link</a></button>
+                  </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
